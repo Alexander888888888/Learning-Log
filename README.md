@@ -16,11 +16,6 @@ This repository is organized by topics and areas of study. Please note that as t
 - Examples, small projects, or exercises showcasing practical application.
 - Visual aids, such as images or GIFs, where applicable.
 
-### Current Topics
-
-- **Example Topic 1:** (placeholder for now till I start work on a topic) Git and GitHub
-- **Example Topic 2:** (placeholder for now till I start work on a topic) HTML & CSS
-
 ## How It Works
 
 Each topic folder includes:
@@ -28,6 +23,11 @@ Each topic folder includes:
 1. **README.md:** A brief overview of the topic, key learnings, and resources used.
 2. **Code Examples:** Sample code snippets or projects.
 3. **Media:** Screenshots, GIFs, or diagrams to visualize concepts where necessary.
+
+### Current Topics
+
+- **Example Topic 1:** (placeholder for now till I start work on a topic) Git and GitHub
+- **Example Topic 2:** (placeholder for now till I start work on a topic) HTML & CSS
 
 ## Contributions
 
