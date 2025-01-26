@@ -6,4 +6,4 @@ Each subfolder corresponds to a specific topic or course, showcasing what I’ve
 
 Explore the folders to see the progress I’ve made and the skills I’ve developed!
 
-[Javascript](codecademy projects/Javascript/README.md)
+[Javascript](Javascript/README.md)
