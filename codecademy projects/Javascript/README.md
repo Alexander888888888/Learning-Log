@@ -6,4 +6,5 @@ Each subfolder corresponds to a specific topic or project, showcasing what I’v
 
 Explore the folders to see the progress I’ve made and the skills I’ve developed!
 
-[Kelvin Weather Project](Kelvin%20Weather%20Project/README.md)
+- [Kelvin Weather Project](Kelvin%20Weather%20Project/README.md)
+- [Dog Years Project](Dog%20Years%20Project/README.md)
