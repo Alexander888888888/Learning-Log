@@ -8,7 +8,7 @@ In this project we will build a Magic Eight Ball using control flow in JavaScrip
 
 The user will be able to input a question, then our program will output a random fortune.
 
-### Heres a snippet of my work:
+### Heres a code snippet of my work:
 
 ```javascript
 // I create a switch statement which uses the value of the random number to randomly assign the eightBall variables value. I created 8 responces that sound like Magic 8 Ball answers and to be extra safe I included a default value in case there are any errors in the code.
@@ -42,6 +42,6 @@ switch(randomNumber) {
 }
 ```
 
-### Check out the full code here:
+### Check out my full code here:
 
 [Magic 8 Ball Project](Magic%208%20Ball.js)

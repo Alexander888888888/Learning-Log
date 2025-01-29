@@ -26,5 +26,5 @@ let fahrenheit = celsius * (9/5) + 32;
 
 For extra practice I also created a variable to convert celsius to the Newton scale.
 
-### Check out the full code here: 
+### Check out my full code here: 
 [Kelvin Weather Project](Kelvin%20Weather)
