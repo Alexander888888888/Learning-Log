@@ -8,3 +8,4 @@ Explore the folders to see the progress I’ve made and the skills I’ve develo
 
 - [Kelvin Weather Project](Kelvin%20Weather%20Project/README.md)
 - [Dog Years Project](Dog%20Years%20Project/README.md)
+- [Magic 8 Ball Project](Magic%208%20Ball%20Project/README.md)
