@@ -21,7 +21,32 @@ Start the program and display the results.
 ### Heres a code snippet of my work:
 
 ```javascript
+// Now I create a function which can determine who wins the game based on the results of the user and computer. As a challange I decide to use a ternary operator for the logic.
+const determineWinner = (userChoice, computerChoice) => {
+  return userChoice === computerChoice
+    ? "Game tied"
+    : (userChoice === "rock" && computerChoice === "scissors") ||
+      (userChoice === "paper" && computerChoice === "rock") ||
+      (userChoice === "scissors" && computerChoice === "paper")
+    ? "Human wins!"
+    : "Computer wins";
+};
 
+// I once again refactor the code to challange myself this time using an else if statement. I keep the new code commented out to prevent any logic conflicting.
+
+// const determineWinner = (userChoice, computerChoice) => {
+//   if (userChoice === computerChoice) {
+//     return "Game tied";
+//   } else if (
+//     (userChoice === "rock" && computerChoice === "scissors") ||
+//     (userChoice === "paper" && computerChoice === "rock") ||
+//     (userChoice === "scissors" && computerChoice === "paper")
+//   ) {
+//     return "Human wins!";
+//   } else {
+//     return "Computer wins";
+//   }
+// };
 ```
 
 ### Check out my full code here:

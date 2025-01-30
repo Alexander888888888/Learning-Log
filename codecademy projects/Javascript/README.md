@@ -10,3 +10,4 @@ Explore the folders to see the progress I’ve made and the skills I’ve develo
 - [Dog Years Project](Dog%20Years%20Project/README.md)
 - [Magic 8 Ball Project](Magic%208%20Ball%20Project/README.md)
 - [Race Day Project](Race%20Day%20Project/README.md)
+- [Rock, Paper or Scissors Project](Rock,%20Paper%20or%20Scissors%20Project/README.md)
