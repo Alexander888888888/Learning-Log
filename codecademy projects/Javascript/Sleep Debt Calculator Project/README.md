@@ -11,7 +11,20 @@ Finally, it will calculate, in hours, how far you are from your weekly sleep goa
 ### Heres a code snippet of my work:
 
 ```javascript
-
+// Lastly I create another function to determine if the user got the right amount of sleep or not. I use a ternary for the logic to help me practice creating these. I also make sure to include the hours the user is over or under by in the log statements to make the calculator more helpful.
+  const calculateSleepDebt = () => {
+    const actualSleepHours = getActualSleepHours();
+    const idealSleepHours = getIdealSleepHours();
+  
+    actualSleepHours === idealSleepHours
+      ? console.log("You got the perfect amount of sleep, well done!")
+      : actualSleepHours < idealSleepHours
+      ? console.log(`You didn't get much sleep this week, ideally you would get ${idealSleepHours - actualSleepHours} hours more. Get some rest.`)
+      : console.log(`You got more sleep that you needed, ${actualSleepHours - idealSleepHours} hours more to be precise! Stop being lazy`);
+  };
+  
+  // I start the program by calling the function.
+  calculateSleepDebt();
 ```
 
 ### Check out my full code here:
