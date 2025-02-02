@@ -13,3 +13,4 @@ Explore the folders to see the progress I’ve made and the skills I’ve develo
 - [Rock, Paper or Scissors Project](Rock,%20Paper%20or%20Scissors%20Project/README.md)
 - [Sleep Debt Calculator Project](Sleep%20Debt%20Calculator%20Project/README.md)
 - [Training Days Project](Training%20Days%20Project/README.md)
+- [Secret Message Project](Secret%20Message%20Project/README.md)
