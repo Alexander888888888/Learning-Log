@@ -14,3 +14,4 @@ Explore the folders to see the progress I’ve made and the skills I’ve develo
 - [Sleep Debt Calculator Project](Sleep%20Debt%20Calculator%20Project/README.md)
 - [Training Days Project](Training%20Days%20Project/README.md)
 - [Secret Message Project](Secret%20Message%20Project/README.md)
+- [Whale Talk Project](Whale%20Talk%20Project/README.md)
