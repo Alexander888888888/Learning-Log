@@ -7,7 +7,7 @@ In the example, the story variable holds the paragraph we’ll be editing. In or
 
 To see the array we’ll be working with throughout the lesson, log storyWords to the console.
 
-After you’ve viewed the storyWords array, comment out the console.log() statement before moving to the next task.
+After you’ve viewed the storyWords array, comment out the console.log() statement.
 
 Here is the code we will be working with:
 
@@ -45,7 +45,18 @@ let badWord = 'freaking';
 ### Heres a code snippet of my work:
 
 ```javascript
+// As my great grandmother is reading the story I make it more appropriate by first finding the bad word in the story. To do this I declare a variable called badWordIndex and set its value to the invocation of the .findIndex() method on the storyWords array. The callback function inside .findIndex will check each word to see if it equals the variable badWord and return the index position if it finds it. I now log badWordIndex to the console and discover the index position of the badWord is 78. I can now easily replace the badWord by accessing the element inside the storyWords array that has the index of badWordIndex and setting the element equal to the more appropriate string 'really'. 
+badWordIndex = storyWords.findIndex((word) => {
+    return word === badWord
+});
+console.log(badWordIndex);
+storyWords[badWordIndex] = 'really';
 
+// Next I'm making sure the story will appeal to a broader audience by making sure that every word in the story is 10 characters or less. To do this I make use of the .every() array method, which will test whether every word has less than or equal to 10 characters. By logging the lengthCheck array, which is the variable I assigned to the invocation of the .every() method on the storyWords array, I should get true if there are no words over 10 characters and false if there are. The log let me know there is one by logging false.
+lengthCheck = storyWords.every((word) => {
+    word.length <= 10
+});
+console.log(lengthCheck);
 ```
 
 ### Check out my full code here:
