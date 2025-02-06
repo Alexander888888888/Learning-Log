@@ -19,7 +19,26 @@ A restaurant has hired you to create a function for their website that allows th
 ### Heres a code snippet of my work:
 
 ```javascript
+// To safely reassign the two menu properties I add setters that type check the values being assigned using a simple if statement. I make use of the 'this' keyword in order to access the menu's properties inside the function body.
+    set meal(mealToCheck) {
+        if (typeof mealToCheck === 'string') {
+            this._meal = mealToCheck
+        }
+    },
+    set price(priceToCheck) {
+        if (typeof priceToCheck === 'number') {
+            this._price = priceToCheck
+        }
+    },
 
+    // To return the values of the _meal and _price properties in a more readable form I use a getter method, instead of directly accessing them. The conditional statement simply checks that the values exist/are truthy and if so return a string telling potential website visitors what Today's Special is. If the values don't exist/are false it returns a string explaining that the meal or price wasn't set correctly.
+    get todaysSpecial() {
+        if (this._meal && this._price) {
+            return `Today's special is ${this._meal} for $${this._price}.`
+        } else {
+            return 'Meal or price was not set correctly!'
+        }
+    }
 ```
 
 ### Check out my full code here:
