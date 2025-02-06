@@ -17,3 +17,4 @@ Explore the folders to see the progress I’ve made and the skills I’ve develo
 - [Whale Talk Project](Whale%20Talk%20Project/README.md)
 - [Grammar Checker Project](Grammar%20Checker%20Project/README.md)
 - [Meal Maker Project](Meal%20Maker%20Project/README.md)
+- [Team Stats Project](Team%20Stats%20Project/README.md)
