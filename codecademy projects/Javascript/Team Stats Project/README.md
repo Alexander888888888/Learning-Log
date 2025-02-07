@@ -21,7 +21,25 @@ After we create these data structures in this project, feel free to challenge yo
 ### Heres a code snippet of my work:
 
 ```javascript
+// Then I add two properties, _players and _games. Both these properties are initialized to arrays. I then populate these arrays with three objects which themselves contain three properties. The properties from the _players array's objects are firstName, lastName and age. I have created some generic values which could be paired with these properties. The properties from the _games array's objects are opponent, teamPoints and opponentPoints. I have created some generic values for these properties too.
+    _players: [
+        { firstName: "Bob", lastName: "Smith", age: 32 },
+        { firstName: "Frank", lastName: "Day", age: 81 },
+        { firstName: "Donny", lastName: "Hathaway", age: 59 },
+    ],
+    _games: [
+        { opponent: "Slitherin", teamPoints: 50, opponentPoints: 69 },
+        { opponent: "Hufflepuff", teamPoints: 80, opponentPoints: 48 },
+        { opponent: "Griffindor", teamPoints: 93, opponentPoints: 92 },
+    ],
 
+    // To retrieve the _players and _games properties correctly I create a getter method called players and games which return their respective property names as. 
+    get players() {
+        return this._players;
+    },
+    get games() {
+        return this._games;
+    },
 ```
 
 ### Check out my full code here:
