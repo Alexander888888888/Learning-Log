@@ -27,7 +27,8 @@ This repository is organized by topics and areas of study. Please note that as t
 ### Current Topics
 
 - **Codecademy Projects:** [Codecademy Projects](codecademy%20projects/README.md)
-- **Example Topic 2:** (placeholder for now till I start work on a topic) HTML & CSS
+- **Personal Projects:** [Personal Projects](Personal%20Projects/README.md)
+
 
 ## Contributions
 

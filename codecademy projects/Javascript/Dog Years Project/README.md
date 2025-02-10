@@ -26,4 +26,5 @@ let laterYears = myAge - 2;
 // Since the earlyYears variable already accounts for a dogs first two years I subtract this from the myAge variable and assign the result to a new variable called laterYears.
 ```
 ### Check out my full code here: 
+
 [Dog Years Project](Dog%20Years.js)
