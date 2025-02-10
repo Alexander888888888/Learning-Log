@@ -22,7 +22,11 @@ Call the `rollDice(numDice)` function with the number of dice you want to roll. 
 ### Heres a code snippet of my work:
 
 ```javascript
-
+ // To show how frequently each number is rolled I create an object to store this data. For each number in the array the forEach() array method will iterate over the value and add it as a property. If the property has no value the value will automatically be 1. If the property does have a value then it will + 1 to its value. It this way I can see the how many times each number appears in the object.
+    let obj = {};
+    myArray.forEach((die => {
+        obj[die] = (obj[die] || 0) + 1
+    }))
 ```
 
 ### Check out my full code here: 
