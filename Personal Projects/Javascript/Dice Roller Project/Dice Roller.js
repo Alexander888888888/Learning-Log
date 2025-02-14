@@ -31,5 +31,5 @@ const rollDice = (numOfDice) => {
     console.table(obj)
 };
 
-// Finnaly I call the function.
+// Finnaly I call the function
 rollDice(5);
